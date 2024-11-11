@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSU MAP GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="osu-map">
+            <div class="attached-box"></div>
+            <h1>OSU MAP!</h1>
+            <h2>GENERATOR</h2>
+            <div class="upload-section">
+                <input type="text" class="upload-input" id="uploadMusicInput" placeholder="upload your music link">
+                <!-- Hidden file input element -->
+                <input type="file" class="file-input" id="fileInput" accept="audio/*">
+                <div class="file-buttons">
+                    <button class="file-button">mp3</button>
+                    <button class="file-button">youtube</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <h2>generate your map</h2>
+            <input type="text" placeholder="input song title">
+            <input type="text" placeholder="input song artist">
+            <h3>map difficulty level</h3>
+            <div class="difficulty-buttons">
+                <button>easy</button>
+                <button>normal</button>
+                <button>hard</button>
+            </div>
+            <button class="download-button">download</button>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay">
+        <div class="progress-text">Downloading... 0%</div>
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
