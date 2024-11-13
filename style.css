@@ -21,7 +21,7 @@ body {
 }
 
 .osu-map {
-    background-color: #F05F5F;
+    background-color: #FD68AA;
     color: #FCF7ED;
     padding: 60px 70px;
     border-radius: 10px;
@@ -41,7 +41,7 @@ body {
     right: 120px;
     width: 120px;
     height: 40px;
-    background-color: #F05F5F; 
+    background-color: #FD68AA; 
     border-radius: 10px 10px 0 0;
     transition: transform 0.5s ease-in-out, background-color 0.5s ease;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .attached-box.active {
-    background-color: #F05F5F; 
+    background-color: #FD68AA; 
 }
 
 
@@ -149,7 +149,7 @@ body {
     padding: 20px 30px;  
     border: 1px solid #FCF7ED; 
     border-radius: 10px;  
-    background-color: #F05F5F;  
+    background-color: #FD68AA;  
     color: #FCF7ED;  
     font-weight: bold;
     cursor: pointer;
@@ -335,5 +335,3 @@ body {
 .file-input {
     display: none;
 }
-
-
